@@ -1,0 +1,257 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  transition-delay: 20s;
+}
+
+
+
+
+
+main{
+  background: linear-gradient(to right bottom,rgb(112,204,225),rgb(255,85,85));
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+.pop{
+  background: rgba(255,255,255,0.65);
+  height: 500px;
+  min-width: 800px;
+  border-radius: 1rem;
+  overflow-x: hidden;
+  z-index: 3;
+  backdrop-filter: blur(0.5rem);
+  position: relative;
+}
+
+
+.dash{
+  background: rgba(255, 255, 255, 0.4);
+  height: 500px;
+  width: 240px;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+}
+
+
+.circle1,.circle2,.circle3,.circle4{
+  background: linear-gradient(to right top, rgba(255,255,255,0.5), rgba(255,255,255,0.3));
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+
+.circle1{
+  position: absolute;
+  top: 3rem;
+  right: 17rem;
+}
+
+
+.circle2{
+  position: absolute;
+  top: 34rem;
+  left: 17rem;
+
+}
+
+
+.circle3{
+  position: absolute;
+  top: -5rem;
+  left: -3rem;
+
+}
+
+.circle4{
+  position: absolute;
+  bottom: -5rem;
+  right: -3rem;
+
+}
+
+
+.head{
+  margin-top: 1.5rem;
+}
+
+.head img{
+  height: 100px;
+  margin-bottom: 0.6rem;
+}
+
+h1{
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dash .head h1::after{
+
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: rgba(0,139,139,0.55);
+  display: block;
+
+
+}
+
+
+h2{
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.connect{
+  margin-top: 4rem;
+}
+
+.connect ul{
+  margin-top: 0.8rem;
+  list-style: none;
+
+}
+
+.connect ul li{
+  margin-bottom: 0.8rem;
+}
+
+.connect i{
+  cursor: pointer;
+  font-size: 30px;
+  color: rgba(0,139,139,0.55);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-me{
+  float: right;
+  height: 500px;
+  width: 560px;
+}
+
+.about-me .head{
+  margin-left: 2rem;
+}
+
+.line{
+  width: 20%;
+  height: 3px;
+  background: rgba(0,139,139,0.55);
+}
+
+nav ul{
+  list-style: none;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+nav a{
+  text-decoration: none;
+  color: grey;
+  transition: .5s;
+  cursor: pointer ;
+}
+
+nav a:hover,a.active{
+  color: rgba(0,139,139,0.55);
+}
+
+.summary .about-me-content{
+  height: 400px;
+  width: 560px;
+  padding: 55px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+.education .about-me-content{
+  height: 380px;
+  width: 520px;
+  margin: 10px 20px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.schools{
+  width: 497px;
+  height: 95px;
+  margin: 23px auto;
+}
+
+.schools h1,.certificates h1{
+  color: rgba(0,139,139,0.55);
+  font-weight: 700;
+}
+
+
+
+
+.certification .about-me-content,.contact .about-me-content{
+  width: 530px;
+  height: 378px;
+  margin: 10px;
+}
+
+.certificates{
+  margin: 23px auto;
+  margin-left: 25px;
+}
+
+
+
+
+form input,textarea{
+  width: 50%;
+  display: block;
+  margin: 30px auto;
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
+  opacity: 0.5;
+}
+
+button{
+  margin: 0px 132.5px;
+  padding: 7px 110px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
